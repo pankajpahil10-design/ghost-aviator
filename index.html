@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost Aviator — ATPL Prep & Aviation Training</title>
+    <meta name="description" content="Free ATPL ground school preparation by a real pilot and flight instructor. DGCA exam prep, aviation theory, and more.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3e 50%, #0a0a1a 100%);
+        }
+        .logo { font-size: 4rem; margin-bottom: 1rem; }
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            color: #8888cc;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+        .subtitle {
+            font-size: 1rem;
+            color: #aaa;
+            max-width: 600px;
+            margin-bottom: 3rem;
+        }
+        .subjects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            max-width: 900px;
+            width: 100%;
+            padding: 0 1rem;
+            margin-bottom: 3rem;
+        }
+        .subject {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .subject:hover {
+            transform: translateY(-3px);
+            border-color: #6666aa;
+        }
+        .subject-icon { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subject h3 { color: #fff; margin-bottom: 0.3rem; }
+        .subject p { color: #999; font-size: 0.9rem; }
+        .about {
+            background: rgba(255,255,255,0.03);
+            max-width: 700px;
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+        .about h2 { color: #8888cc; margin-bottom: 1rem; }
+        .about p { color: #bbb; }
+        .quote {
+            color: #8888cc;
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            border-left: 3px solid #6666aa;
+        }
+        .cta {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: #6666aa;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            transition: background 0.2s;
+        }
+        .cta:hover { background: #7777bb; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #555;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .logo { font-size: 3rem; }
+            .subjects { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="logo">👻✈️</div>
+        <h1>GHOST AVIATOR</h1>
+        <p class="tagline">ATPL Prep & Aviation Training Academy</p>
+        <p class="subtitle">
+            Free ATPL ground school preparation by a real pilot and flight instructor.
+            No middlemen. No scams. Just knowledge from someone who actually flew.
+        </p>
+
+        <div class="subjects">
+            <div class="subject">
+                <div class="subject-icon">🌦️</div>
+                <h3>Aviation Meteorology</h3>
+                <p>Weather systems, charts, TAFs, METARs — everything a pilot needs to read the sky.</p>
+            </div>
+            <div class="subject">
+                <div class="subject-icon">🧭</div>
+                <h3>General Navigation</h3>
+                <p>Maps, charts, plotting, DR navigation, calculations for ATPL exams.</p>
+            </div>
+            <div class="subject">
+                <div class="subject-icon">📡</div>
+                <h3>Radio Navigation</h3>
+                <p>NDB, VOR, DME, ILS — understand every nav aid inside out.</p>
+            </div>
+            <div class="subject">
+                <div class="subject-icon">🛫</div>
+                <h3>Flight Instruments</h3>
+                <p>Gyroscopes, pressure instruments, glass cockpit — every dial explained.</p>
+            </div>
+            <div class="subject">
+                <div class="subject-icon">📋</div>
+                <h3>Air Regulations</h3>
+                <p>ICAO Annexes, DGCA CARs, rules of the air — the legal side of flying.</p>
+            </div>
+            <div class="subject">
+                <div class="subject-icon">✈️</div>
+                <h3>Flight Planning</h3>
+                <p>Fuel planning, weight & balance, NOTAMs, route planning for real ops.</p>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>About Your Instructor</h2>
+            <p>
+                Captain Pankaj is a certified pilot and flight instructor from India.
+                With years of experience in both flying and teaching, he brings
+                real cockpit knowledge to aspiring pilots who dream of the sky.
+            </p>
+            <div class="quote">
+                "The sky doesn't care about your bank balance. If you have the knowledge, you can fly."
+            </div>
+        </div>
+
+        <a href="#contact" class="cta">Start Learning — Free</a>
+    </div>
+
+    <footer>
+        <p>Ghost Aviator &copy; 2026 | Built with ❤️ by Captain Pankaj & Nayki</p>
+        <p style="margin-top: 0.5rem;">🕉️ OM</p>
+    </footer>
+</body>
+</html>
