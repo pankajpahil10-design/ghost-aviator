@@ -58,6 +58,7 @@
             padding: 1.5rem;
             transition: transform 0.2s, border-color 0.2s;
         }
+        .subject-link { text-decoration: none; color: inherit; display: block; }
         .subject:hover {
             transform: translateY(-3px);
             border-color: #6666aa;
@@ -118,11 +119,13 @@
         </p>
 
         <div class="subjects">
-            <div class="subject">
-                <div class="subject-icon">🌦️</div>
-                <h3>Aviation Meteorology</h3>
-                <p>Weather systems, charts, TAFs, METARs — everything a pilot needs to read the sky.</p>
-            </div>
+            <a class="subject-link" href="./meteorology.html">
+                <div class="subject">
+                    <div class="subject-icon">🌦️</div>
+                    <h3>Aviation Meteorology</h3>
+                    <p>Weather systems, charts, TAFs, METARs — everything a pilot needs to read the sky.</p>
+                </div>
+            </a>
             <div class="subject">
                 <div class="subject-icon">🧭</div>
                 <h3>General Navigation</h3>
